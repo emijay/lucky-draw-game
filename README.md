@@ -41,6 +41,6 @@ When the user enters a number, show them their win / loss ratio.
 ### further
 Check the values coming in to see if they are valid (if it's a number or not)
 
-###
+### further
 Set an easter egg if the user enters a secret word, to give a special message.
 
