@@ -3,9 +3,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <input class="starter" id="input" placeholder="input"/>
-    <h2>output:</h2>
-    <p class="starter" id="output"></p>
+
+    <h2>Please choose a number from 1 - 10</h2>
+        <input class="starter" id="input" placeholder="input"/>
+
+    <h2>Result:</h2>
+        <p class="starter" id="output"></p>
+
+    <h2>No. of Times Played: <span id="timesPlayed"></span></h2>
+    <h2>No. of Times Won: <span id="timesWon"></span></h2>
+    <h2>Win Ratio: <span id="winRatio"></span>%</h2>
+
     <script>
       document.querySelector('#input').addEventListener('change', function(event){
         var currentInput = event.target.value;
@@ -16,7 +24,13 @@
         var output = document.querySelector('#output');
         output.innerText = data;
       }
+
+
+
     </script>
     <script src="script.js"></script>
+
+
+
   </body>
 </html>
